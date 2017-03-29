@@ -4,7 +4,7 @@ Source code for the presentation
 
 Build in Function/ value
 ---
-zero
+zero  
 succ
 plus
 mult
