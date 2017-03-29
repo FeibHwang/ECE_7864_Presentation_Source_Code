@@ -5,11 +5,17 @@ Source code for the presentation
 Basic Command
 ---
 zero = \f.\x.x 
+
 succ = \n.\f.\x.f (n f x) 
+
 plus = \m.\n.m succ n 
+
 mult = \m.\n.\f.m (n f) 
+
 pow = \b.\e.e b 
+
 pred = \n.\f.\x.n (\g.\h.h (g f)) (\u.x) (\u.u) 
+
 sub = \m.\n.n pred m 
 one = succ zero 
 two = succ one 
