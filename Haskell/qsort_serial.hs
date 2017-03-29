@@ -8,5 +8,10 @@ main = do
     where nums = [10000,9999..0]
           sorted = qsort nums
 
+
+-- open windows powershell
+-- switch location to this file
+-- type following command in the console:
+
 -- ghc --make -threaded -O2 .\qsort_serial.hs
 -- Measure-Command {.\qsort_serial.exe}
