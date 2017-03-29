@@ -2,7 +2,7 @@
 Source code for the presentation
 
 ###Basic Command
-zero = \f.\x.x 
+\nzero = \f.\x.x 
 succ = \n.\f.\x.f (n f x) 
 plus = \m.\n.m succ n 
 mult = \m.\n.\f.m (n f) 
