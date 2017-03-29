@@ -29,7 +29,11 @@ leq
 eq  
 
 
-
+Demo: Use a function
+---
+succ zero
+plus one two
+and true false
 
 
 Demo: Define a new function
