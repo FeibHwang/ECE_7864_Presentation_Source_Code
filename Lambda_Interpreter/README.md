@@ -1,8 +1,10 @@
 # ECE_7864_Presentation_Source_Code
 Source code for the presentation
 
-###Basic Command
-\nzero = \f.\x.x 
+
+Basic Command
+---
+zero = \f.\x.x 
 succ = \n.\f.\x.f (n f x) 
 plus = \m.\n.m succ n 
 mult = \m.\n.\f.m (n f) 
@@ -23,4 +25,3 @@ iszero = \n.n (\x.false) true
 leq = \m.\n.iszero (sub m n) 
 eq = \m.\n. and (leq m n) (leq n m) 
 Y = \g.(\x.g (x x)) (\x.g (x x))
-
