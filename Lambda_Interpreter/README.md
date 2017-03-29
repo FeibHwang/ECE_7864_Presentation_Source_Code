@@ -1,5 +1,7 @@
 # ECE_7864_Presentation_Source_Code
-Source code for the presentation
+Interpreter program in presentation 50~51
+
+download the .exe, run directly 
 
 
 Build in Function/ value
